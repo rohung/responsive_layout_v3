@@ -111,13 +111,28 @@ h3 {
   margin: 30px 30px;
 }
 
+.skill-list{
+  margin-top:70px;
+  color: rgb(129, 129, 129);
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.skill-list h2{
+  color: #000;
+}
+
+.skill-list li{
+  padding: 15px 0px 15px 0px;
+}
+
 
 .footer-contact {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 85px;
   margin-bottom: 100px;
   padding: 0 20px;
   height: 250px;
@@ -210,6 +225,28 @@ hr {
     
   }
 
+  .skill-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-list ul{
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    column-count: 2;
+    align-self: center;
+  }
+
+
+
+
+
+
+
+
+ 
+
 
 }
 
@@ -233,5 +270,13 @@ hr {
 
   .col {
     flex-basis: calc(33.333% - 10px);
+  }
+
+  .skill-list {
+    height: 120px;
+  }
+
+  .skill-list ul{
+    column-count: 4;
   }
 }
